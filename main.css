@@ -1,0 +1,126 @@
+body {
+    background-color: azure;
+}
+
+.cabecalho {
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: #4682B4;
+    text-align: center;
+    padding: 5px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.1em;
+    display: inline block;
+    padding: 10px;
+}
+
+nav a:hover {
+    background: PaleTurquoise;
+    border-radius: 5px;
+}
+
+#integrantes {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.container {
+    background-size: cover;
+    margin-left: 100px;
+}
+
+.buttoninst {
+    background-color: #4169E1;
+    border: none;
+    border-radius: 5px;
+    color: #141414;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.buttongit {
+    height: 100px;
+    border-radius: 5px;
+    background-color: #4169E1;
+    color: #141414;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#descricao {
+    border: 1px solid #1E90FF;
+    max-width: 1300px;
+    font-size: 1.1em;
+}
+
+.hobbies {
+    border: 1px solid #1E90FF;
+    font-size: 20px;
+    padding: 3px;
+    max-width: 450px;
+}
+
+table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #E0FFFF;
+    border: 1px solid #696969;
+    box-shadow: 0 10px 6px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: #B0E0E6;
+}
+
+thead th {
+    padding: 7px;
+    font-size: 1.2em;
+    border: 1px solid #696969;
+}
+
+tbody td {
+    padding: 4px;
+    text-align: center;
+}
+
+tbody tr:hover {
+    background-color: #F5FFFA;
+    cursor: pointer;
+}
+
+.p1 {
+    font-family: serif;
+    font-size: 18px;
+}
+
+.p2 {
+    margin-left: 20px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: #E0FFFF;
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.contato {
+    text-decoration: none;
+    color: #483D8B;
+}
